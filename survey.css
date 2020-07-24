@@ -1,0 +1,124 @@
+#main{
+  text-align: auto;
+}
+
+html{
+  color: white;
+  font-family: monospace;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.pos{
+  position: relative;
+}
+#title{
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#description{
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  margin: -30px 0px 0px 0px;
+}
+body:before{
+  content: '';
+  position: fixed;
+  top: 0;
+  
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg"');
+  background-size:100% 100%;
+
+  filter: blur(3.5px);
+}
+#survey-form{
+  font-size: 22px;
+  
+  position: absolute;
+  top: 155%;
+  left: 45%;
+  transform: translate(-40%,-58%);
+  margin-top: 30px;
+  width: 600px;
+  height: 1490px;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.5);
+  
+}
+
+#name{
+  float: left;
+  width: 500px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#email{
+  float: left;
+  width: 500px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#number{
+  float: left;
+  width: 500px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+
+#name-label{
+  text-align: center;
+  
+}
+#email-label{
+  text-align: center;
+  
+}
+#number-label{
+  text-align: center;
+}
+#opt1{
+  margin-top: 15px;
+  
+}
+
+#dropdown{
+  float: left;
+  width: 510px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#textarea{
+  width: 500px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+#submit{
+  width: 510px;
+  height: 35px;
+  background-color: #f2d91b;
+  
+}
+body{
+  margin: 0;
+  padding: 0;
+
+}
